@@ -61,7 +61,7 @@
             android:text="Anderson Silva"
             android:textColor="@color/white"
             android:layout_margin="20dp"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -71,7 +71,7 @@
             android:layout_margin="20dp"
             android:textColor="@color/white"
             android:text="17/09/2022"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>
 
