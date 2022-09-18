@@ -32,6 +32,12 @@ class MainActivity : AppCompatActivity() {
                     val noticia = document.result.get("noticia").toString()
                     val data = document.result.get("data").toString()
                     val autor = document.result.get("autor").toString()
+
+                    // após recupera é preciso passar para os campos do layout
+                    binding.textTituloNoticias.text = titulo
+                    binding.textNoticias.text = noticia
+                    binding.textDataNOticias.text = data
+                    binding.textAutorNOticias.text = autor
                 }
             }
     }
